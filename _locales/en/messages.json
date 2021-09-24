@@ -1,0 +1,66 @@
+﻿{
+	"appName": {
+		"message": "Google Search date range shortcut"
+	},
+	"appDesc": {
+		"message": "Add a date range shortcut to your Google search results."
+	},
+
+	"h_text": {
+		"message": "hours"
+	},
+	"d_text": {
+		"message": "days"
+	},
+	"w_text": {
+		"message": "weeks"
+	},
+	"m_text": {
+		"message": "months"
+	},
+	"y_text": {
+		"message": "years"
+	},
+
+	"no_value":{
+		"message": "no value"
+	},
+	"add_button":{
+		"message": "Add"
+	},
+	"always_tools_open":{
+		"message": "Always open search tools"
+	},
+
+
+	"qdr_h_text_H": {
+		"message": "Past "
+	},
+	"qdr_h_text_T": {
+		"message": " hours"
+	},
+	"qdr_d_text_H": {
+		"message": "Past "
+	},
+	"qdr_d_text_T": {
+		"message": " days"
+	},
+	"qdr_w_text_H": {
+		"message": "Past "
+	},
+	"qdr_w_text_T": {
+		"message": " weeks"
+	},
+	"qdr_m_text_H": {
+		"message": "Past "
+	},
+	"qdr_m_text_T": {
+		"message": " months"
+	},
+	"qdr_y_text_H": {
+		"message": "Past "
+	},
+	"qdr_y_text_T": {
+		"message": " years"
+	}
+}

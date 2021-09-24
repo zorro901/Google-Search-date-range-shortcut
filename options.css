@@ -1,0 +1,140 @@
+﻿BODY {
+	background-color: #232f3e;
+	color: #dddddd;
+	font-size: 13px;
+}
+
+#header {
+	display: flex;
+	height: 70px;
+}
+#header > .left {
+	flex: 2;
+}
+#header > .right {
+	flex: 1;
+}
+#ver_box {
+	text-align: right;
+	color: gray;
+}
+
+#container {
+	width: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+.checkbox_area {
+	padding: 0 0 10px;
+}
+
+#add_data_form {
+	display: flex;
+	margin: 20px 0;
+	justify-content: center;
+}
+
+#add_data_form * {
+	font-size: 15px;
+}
+
+#range {
+	text-align: center;
+}
+
+#time_unit {
+	padding-left: 5px;
+}
+
+#add_range_button {
+	height: 35px;
+	color: white;
+	padding: 0 10px;
+	border: 0px;
+	background: rgb(53, 53, 199);
+}
+#add_range_button:hover {
+	background: rgb(87, 0, 226);
+}
+#add_range_button:active {
+	background: rgb(181, 0, 226);
+}
+
+#range_list {
+	padding: 0;
+}
+#range_list li {
+	position: relative;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	background: rgba(255, 255, 255, 0.3);
+	font-size: 15px;
+	transition: 0.2s;
+	user-select: none;
+	margin: 5px 0;
+	box-shadow: 0px 0px 0px black;
+}
+#range_list li:hover {
+	transform: scale(1.05);
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#range_list li .close {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1px;
+}
+#range_list li .close:hover {
+	background-color: red;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+input[type='checkbox'] + label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 30px;
+	margin-right: 15px;
+	font-size: 18px;
+}
+
+input[type='checkbox'] + label:before {
+	content: '';
+	display: inline-block;
+
+	width: 25px;
+	height: 25px;
+
+	margin-right: 10px;
+	top: 0px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #ccc;
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+}
+input[type='checkbox']:checked + label:before {
+	content: '\2713';
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	font-size: 22px;
+	font-weight: 800;
+	color: #fff;
+	background: #2f87c1;
+	text-align: center;
+	line-height: 22px;
+}

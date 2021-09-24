@@ -1,0 +1,66 @@
+﻿{
+	"appName": {
+		"message": "Google Search date range shortcut"
+	},
+	"appDesc": {
+		"message": "Add a date range shortcut to your Google search results."
+	},
+
+	"h_text": {
+		"message": "時間以内"
+	},
+	"d_text": {
+		"message": "日以内"
+	},
+	"w_text": {
+		"message": "週間以内"
+	},
+	"m_text": {
+		"message": "か月以内"
+	},
+	"y_text": {
+		"message": "年以内"
+	},
+
+	"no_value":{
+		"message": "no value"
+	},
+	"add_button":{
+		"message": "Add"
+	},
+	"always_tools_open":{
+		"message": "Always open search tools"
+	},
+
+
+	"qdr_h_text_H": {
+		"message": ""
+	},
+	"qdr_h_text_T": {
+		"message": " 時間以内"
+	},
+	"qdr_d_text_H": {
+		"message": ""
+	},
+	"qdr_d_text_T": {
+		"message": " 日以内"
+	},
+	"qdr_w_text_H": {
+		"message": ""
+	},
+	"qdr_w_text_T": {
+		"message": " 週間以内"
+	},
+	"qdr_m_text_H": {
+		"message": ""
+	},
+	"qdr_m_text_T": {
+		"message": " か月以内"
+	},
+	"qdr_y_text_H": {
+		"message": ""
+	},
+	"qdr_y_text_T": {
+		"message": " 年以内"
+	}
+}

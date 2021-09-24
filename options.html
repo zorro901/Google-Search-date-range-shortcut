@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Options</title>
+		<link rel='stylesheet' href='options.css'/>
+		<script src="browserAPI.js"></script>
+		<script src="options.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div class="checkbox_area">
+				<input type="checkbox" id="check_always_tools_open_id" name="check_always_tools_open">
+				<label for="check_always_tools_open_id" id="always_tools_open_label">항상 도구 열어두기</label>
+			</div>
+			<hr>
+			<div id="add_data_form">
+				<input type="number" id="range" name="range_num" min="2" max="10000" placeholder="number" step="1">
+				<select required id="time_unit">
+					<option value="h">시간</option>
+					<option value="d" selected>일</option>
+					<option value="w">주</option>
+					<option value="m">개월</option>
+					<option value="y">년</option>
+				</select>
+				<button id="add_range_button">추가</button>
+			</div>
+			<div>
+				<ul id="range_list">
+					<li>aaaa<span class="close">x</span></li>
+					<li>bbbb<span class="close">x</span></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</footer>
+</html>
